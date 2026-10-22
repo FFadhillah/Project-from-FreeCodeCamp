@@ -1,5 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/PROJECT\ CSS/background-image);
+    background-image: url(./asset/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #5C7057;
+    font-family: "Neuton", sans-serif;
+}
+
+.menu {
+    width: 80%;
+    margin: 100px auto;
+    max-width: 500px;
+    background-color: #ACC5A6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+
+.items p {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.year {
+    font-style: italic;
+}
+
+.type-food {
+    text-align: left;
+    width: 80%;
+}
+
+.price {
+    text-align: right;
+    width:19%;
+}
+
+hr {
+    height: 2px;
+    background-color: #5C7057;
+    border-color: #5C7057;
+}
+
+/* footer */
+
+.bottom-line {
+    margin-top: 30px;
+}
+
+footer {
+    font-size: 14px;
+}
+ 
+a{
+    color:black;
+}
+
+a:visited {
+    color:black;
+}
+ 
+a:hover {
+    color:#5C7057;
+}
+
+a:active {
+    color:#5C7057;
 }
